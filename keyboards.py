@@ -30,7 +30,7 @@ vk_public_button = InlineKeyboardButton(
 
 youtube_button = InlineKeyboardButton(
     text="YouTube-канал",
-    url="https://www.youtube.com/@samsmuru"
+    url="https://youtu.be/DD8CDHDSwl0?si=MBut-J_3hYnDe0ym"
 )
 
 social_keyboard = InlineKeyboardMarkup(
