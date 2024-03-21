@@ -28,9 +28,9 @@ vk_public_button = InlineKeyboardButton(
     url="https://vk.com/xxxxxxxxxx"
 )
 
-youtube_button = InlineKeyboardButton(
-    text="YouTube-канал",
-    url="https://youtu.be/DD8CDHDSwl0?si=MBut-J_3hYnDe0ym"
+top_3_button = InlineKeyboardButton(
+    text="Топ-3 вопроса стоматологу",
+    url="https://youtu.be/my4feD2Cqgg?si=Hch1WC9cR2FfFKRk"
 )
 
 social_keyboard = InlineKeyboardMarkup(
@@ -42,6 +42,6 @@ social_keyboard = InlineKeyboardMarkup(
 
 watch_keyboard = InlineKeyboardMarkup(
     inline_keyboard=[
-        [youtube_button],
+        [top_3_button],
     ]
 )
