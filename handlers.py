@@ -15,7 +15,7 @@ phrases = data.phrases
 def get_random_diagnosis() -> str:
     diagnosis = random.choice(data.diagnoses)
     phrase = random.choice(data.phrases)
-    final_diagnosis = f"{phrase} {diagnosis[0]}.\n\n{diagnosis[1]}"
+    final_diagnosis = f"{phrase} {diagnosis[0]}!\n\n{diagnosis[1]}"
     return final_diagnosis
 
 

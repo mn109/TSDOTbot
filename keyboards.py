@@ -29,7 +29,7 @@ vk_public_button = InlineKeyboardButton(
 )
 
 top_3_button = InlineKeyboardButton(
-    text="Топ-3 вопроса стоматологу",
+    text="Ролик для YouTube-канала (107 сек.)",
     url="https://youtu.be/my4feD2Cqgg?si=Hch1WC9cR2FfFKRk"
 )
 
