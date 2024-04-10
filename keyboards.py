@@ -33,6 +33,11 @@ top_3_button = InlineKeyboardButton(
     url="https://youtu.be/my4feD2Cqgg?si=Hch1WC9cR2FfFKRk"
 )
 
+about_us_vk_clip_button = InlineKeyboardButton(
+    text="Клип VK",
+    url="https://vk.ru/clip-78784229_456239033"
+)
+
 social_keyboard = InlineKeyboardMarkup(
     inline_keyboard=[
         [telegram_channel_button],
@@ -43,5 +48,6 @@ social_keyboard = InlineKeyboardMarkup(
 watch_keyboard = InlineKeyboardMarkup(
     inline_keyboard=[
         [top_3_button],
+        [about_us_vk_clip_button]
     ]
 )
