@@ -18,21 +18,6 @@ keyboard = ReplyKeyboardMarkup(
     )
 
 
-social_keyboard = InlineKeyboardMarkup(
-    inline_keyboard=[
-        [telegram_channel_button],
-        [vk_public_button]
-    ]
-)
-
-watch_keyboard = InlineKeyboardMarkup(
-    inline_keyboard=[
-        [top_3_button],
-        [top_10_button],
-        [about_us_vk_clip_button]
-    ]
-)
-
 about_us_vk_clip_button = InlineKeyboardButton(
     text="Клип VK (20 сек.)",
     url="https://vk.ru/clip-78784229_456239033"
@@ -56,4 +41,20 @@ top_10_button = InlineKeyboardButton(
 vk_public_button = InlineKeyboardButton(
     text="Паблик в VK",
     url="https://vk.com/xxxxxxxxxx"
+)
+
+
+social_keyboard = InlineKeyboardMarkup(
+    inline_keyboard=[
+        [telegram_channel_button],
+        [vk_public_button]
+    ]
+)
+
+watch_keyboard = InlineKeyboardMarkup(
+    inline_keyboard=[
+        [top_3_button],
+        [top_10_button],
+        [about_us_vk_clip_button]
+    ]
 )
