@@ -1,7 +1,6 @@
 from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup, KeyboardButton, ReplyKeyboardMarkup
 
 
-
 button_1 = KeyboardButton(text="Смотреть 📺")
 button_2 = KeyboardButton(text="Слушать 🎧")
 button_3 = KeyboardButton(text="Подписаться 🔔")
@@ -18,15 +17,6 @@ keyboard = ReplyKeyboardMarkup(
     resize_keyboard=True
     )
 
-telegram_channel_button = InlineKeyboardButton(
-    text="Канал в Telegram",
-    url="https://t.me/xxxxxxxxx"
-)
-
-vk_public_button = InlineKeyboardButton(
-    text="Паблик в VK",
-    url="https://vk.com/xxxxxxxxxx"
-)
 
 social_keyboard = InlineKeyboardMarkup(
     inline_keyboard=[
@@ -43,17 +33,27 @@ watch_keyboard = InlineKeyboardMarkup(
     ]
 )
 
+about_us_vk_clip_button = InlineKeyboardButton(
+    text="Клип VK (20 сек.)",
+    url="https://vk.ru/clip-78784229_456239033"
+)
+
+telegram_channel_button = InlineKeyboardButton(
+    text="Канал в Telegram",
+    url="https://t.me/xxxxxxxxx"
+)
+
 top_3_button = InlineKeyboardButton(
     text="Ролик для YouTube-канала (107 сек.)",
-    url="https://youtu.be/my4feD2Cqgg?si=Hch1WC9cR2FfFKRk"
+    url="https://youtu.be/my4feD2Cqgg"
 )
 
 top_10_button = InlineKeyboardButton(
     text="Ролик для YouTube-канала (12 мин.)",
-    url="https://www.youtube.com/watch?v=tUWfljgFJD8"
+    url="https://youtu.be/tUWfljgFJD8"
 )
 
-about_us_vk_clip_button = InlineKeyboardButton(
-    text="Клип VK (20 сек.)",
-    url="https://vk.ru/clip-78784229_456239033"
+vk_public_button = InlineKeyboardButton(
+    text="Паблик в VK",
+    url="https://vk.com/xxxxxxxxxx"
 )
