@@ -38,6 +38,7 @@ social_keyboard = InlineKeyboardMarkup(
 watch_keyboard = InlineKeyboardMarkup(
     inline_keyboard=[
         [top_3_button],
+        [top_10_button],
         [about_us_vk_clip_button]
     ]
 )
