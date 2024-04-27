@@ -1,16 +1,16 @@
 from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup, KeyboardButton, ReplyKeyboardMarkup
 
 
-button_1 = KeyboardButton(text="Смотреть 📺")
+button_1 = KeyboardButton(text="Работы 📺")
 button_2 = KeyboardButton(text="Слушать 🎧")
-button_3 = KeyboardButton(text="Подписаться 🔔")
-button_4 = KeyboardButton(text="Связаться 👋")
-button_5 = KeyboardButton(text="Гадать на диагнозах 🔮")
+button_3 = KeyboardButton(text="Соцсети 🔔")
+button_4 = KeyboardButton(text="Контакты 👋")
+button_5 = KeyboardButton(text="Гадание на диагнозах 🔮")
 
 
 keyboard = ReplyKeyboardMarkup(
     keyboard=[
-        [button_1, button_2],
+        [button_1],
         [button_3, button_4],
         [button_5]
         ],
