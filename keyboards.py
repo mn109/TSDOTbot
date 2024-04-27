@@ -51,7 +51,6 @@ website_button = InlineKeyboardButton(
 
 social_keyboard = InlineKeyboardMarkup(
     inline_keyboard=[
-        [website_button],
         [telegram_channel_button],
         [vk_public_button]
     ]
