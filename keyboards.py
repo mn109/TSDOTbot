@@ -25,7 +25,7 @@ about_us_vk_clip_button = InlineKeyboardButton(
 
 telegram_channel_button = InlineKeyboardButton(
     text="Канал в Telegram",
-    url="https://t.me/xxxxxxxxx"
+    url="https://t.me/kamera_k"
 )
 
 top_3_button = InlineKeyboardButton(
@@ -40,12 +40,18 @@ top_10_button = InlineKeyboardButton(
 
 vk_public_button = InlineKeyboardButton(
     text="Паблик в VK",
-    url="https://vk.com/xxxxxxxxxx"
+    url="https://vk.com/kamera_k"
+)
+
+website_button = InlineKeyboardButton(
+    text="Официальный сайт",
+    url="https://kamera-k.ru"
 )
 
 
 social_keyboard = InlineKeyboardMarkup(
     inline_keyboard=[
+        [website_button],
         [telegram_channel_button],
         [vk_public_button]
     ]
