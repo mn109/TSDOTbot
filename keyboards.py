@@ -1,10 +1,10 @@
 from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup, KeyboardButton, ReplyKeyboardMarkup
 
 
-button_1 = KeyboardButton(text="Работы 📺")
+button_1 = KeyboardButton(text="Наши работы 📺")
 button_2 = KeyboardButton(text="Слушать 🎧")
-button_3 = KeyboardButton(text="Соцсети 🔔")
-button_4 = KeyboardButton(text="Контакты 👋")
+button_3 = KeyboardButton(text="Наши соцсети 🔔")
+button_4 = KeyboardButton(text="Наши контакты 👋")
 button_5 = KeyboardButton(text="Гадание на диагнозах 🔮")
 
 
