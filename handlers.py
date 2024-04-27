@@ -26,7 +26,7 @@ async def process_start_command(message: Message):
                          )
 
 
-@router.message(F.text == "Смотреть 📺")
+@router.message(F.text == "Наши работы 📺")
 @router.message(Command(commands="watch"))
 async def process_watch_command(message: Message):
     await message.answer(
@@ -42,7 +42,7 @@ async def process_listen_command(message: Message):
         data.LISTEN_MESSAGE,
         )
 
-@router.message(F.text == "Подписаться 🔔")
+@router.message(F.text == "Наши соцсети 🔔")
 @router.message(Command(commands="follow"))
 async def process_follow_command(message: Message):
     await message.answer(
@@ -50,7 +50,7 @@ async def process_follow_command(message: Message):
         reply_markup=keyboards.social_keyboard
         )
 
-@router.message(F.text == "Связаться 👋")
+@router.message(F.text == "Наши контакты 👋")
 @router.message(Command(commands="connect"))
 async def process_connect_command(message: Message):
     await message.answer(
@@ -58,7 +58,7 @@ async def process_connect_command(message: Message):
         )
 
 
-@router.message(F.text == "Гадать на диагнозах 🔮")
+@router.message(F.text == "Гадание на диагнозах 🔮")
 @router.message(Command(commands="divine"))
 async def process_divine_command(message: Message):
     time.sleep(1)
