@@ -33,8 +33,7 @@ def get_random_diagnosis() -> str:
     global last_divination
     while True:
         diagnosis = random.choice(diagnoses)
-        phrase = random.choice(phrases)
-        final_diagnosis = f"{phrase} {diagnosis[0]}!\n\n{diagnosis[1]}"
+        final_diagnosis = f"{diagnosis[0]}!\n\n{diagnosis[1]}"
         if final_diagnosis != last_divination:
             last_divination = final_diagnosis
             return final_diagnosis
