@@ -27,11 +27,17 @@ OTHER_MESSAGE = messages["OTHER_MESSAGE"]
 phrases = phrases_data["phrases"]
 diagnoses = diagnoses_data["diagnoses"]
 
+last_divination = None
+
 def get_random_diagnosis() -> str:
-    diagnosis = random.choice(diagnoses)
-    phrase = random.choice(phrases)
-    final_diagnosis = f"{phrase} {diagnosis[0]}!\n\n{diagnosis[1]}"
-    return final_diagnosis
+    global last_divination
+    while True:
+        diagnosis = random.choice(diagnoses)
+        phrase = random.choice(phrases)
+        final_diagnosis = f"{phrase} {diagnosis[0]}!\n\n{diagnosis[1]}"
+        if final_diagnosis != last_divination:
+            last_divination = final_diagnosis
+            return final_diagnosis
 
 @router.message(CommandStart())
 async def process_start_command(message: Message):
