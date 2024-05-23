@@ -23,6 +23,21 @@ about_us_vk_clip_button = InlineKeyboardButton(
     url="https://vk.ru/clip-78784229_456239033"
 )
 
+neuroscience_promo_button = InlineKeyboardButton(
+    text="Информационный ролик (5 мин.)",
+    url="https://vk.com/video-78784229_456239040"
+)
+
+orthodontist_vk_clip_button = InlineKeyboardButton(
+    text="Клип VK (52 сек.)",
+    url="https://vk.com/clip-78784229_456239039"
+)
+
+psychiatrist_vk_clip_button = InlineKeyboardButton(
+    text="Тизер интервью (60 сек.)",
+    url="https://vk.com/clip-78784229_456239042"
+)
+
 telegram_channel_button = InlineKeyboardButton(
     text="Канал в Telegram",
     url="https://t.me/kamera_k"
@@ -58,8 +73,11 @@ social_keyboard = InlineKeyboardMarkup(
 
 watch_keyboard = InlineKeyboardMarkup(
     inline_keyboard=[
+        [psychiatrist_vk_clip_button],
+        [orthodontist_vk_clip_button],
+        [about_us_vk_clip_button],
+        [neuroscience_promo_button],
         [top_3_button],
-        [top_10_button],
-        [about_us_vk_clip_button]
+        [top_10_button]
     ]
 )
