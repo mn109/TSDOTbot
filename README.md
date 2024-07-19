@@ -4,4 +4,4 @@ A copywriter at the in-house creative agency of a medical university and an aspi
 
 I used [aiogram](https://aiogram.dev/).
 
-Check the bot out: [@kamera_k_bot](https://www.t.me/kamera_k_bot)
+Check the bot out: [@TSDOTbot](https://www.t.me/TSDOTbot)

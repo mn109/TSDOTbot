@@ -2,17 +2,16 @@ from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup, KeyboardBu
 
 
 button_1 = KeyboardButton(text="Наши работы 📺")
-button_2 = KeyboardButton(text="Слушать 🎧")
-button_3 = KeyboardButton(text="Наши соцсети 🔔")
-button_4 = KeyboardButton(text="Наши контакты 👋")
-button_5 = KeyboardButton(text="Гадание на диагнозах 🔮")
+button_2 = KeyboardButton(text="Наши соцсети 🔔")
+button_3 = KeyboardButton(text="Наши контакты 👋")
+button_4 = KeyboardButton(text="Гадание на диагнозах 🔮")
 
 
 keyboard = ReplyKeyboardMarkup(
     keyboard=[
         [button_1],
-        [button_3, button_4],
-        [button_5]
+        [button_2, button_3],
+        [button_4]
         ],
     resize_keyboard=True
     )
@@ -45,7 +44,7 @@ psychiatrist_full_video_button = InlineKeyboardButton(
 
 telegram_channel_button = InlineKeyboardButton(
     text="Канал в Telegram",
-    url="https://t.me/kamera_k"
+    url="https://t.me/xxxxxx_xxxxxx"
 )
 
 top_3_button = InlineKeyboardButton(
@@ -60,12 +59,12 @@ top_10_button = InlineKeyboardButton(
 
 vk_public_button = InlineKeyboardButton(
     text="Паблик в VK",
-    url="https://vk.com/kamera_k"
+    url="https://vk.com/xxxxxxxxxx"
 )
 
 website_button = InlineKeyboardButton(
     text="Официальный сайт",
-    url="https://kamera-k.ru"
+    url="https://xxxxxxxxx.ru"
 )
 
 

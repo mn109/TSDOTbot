@@ -19,7 +19,6 @@ with open('diagnoses.json', 'r', encoding='utf-8') as f:
 
 START_MESSAGE = messages["START_MESSAGE"]
 WATCH_MESSAGE = messages["WATCH_MESSAGE"]
-LISTEN_MESSAGE = messages["LISTEN_MESSAGE"]
 FOLLOW_MESSAGE = messages["FOLLOW_MESSAGE"]
 CONNECT_MESSAGE = messages["CONNECT_MESSAGE"]
 OTHER_MESSAGE = messages["OTHER_MESSAGE"]
@@ -46,11 +45,6 @@ async def process_start_command(message: Message):
 @router.message(Command(commands="watch"))
 async def process_watch_command(message: Message):
     await message.answer(WATCH_MESSAGE, reply_markup=keyboards.watch_keyboard)
-
-@router.message(F.text == "Слушать 🎧")
-@router.message(Command(commands="listen"))
-async def process_listen_command(message: Message):
-    await message.answer(LISTEN_MESSAGE)
 
 @router.message(F.text == "Наши соцсети 🔔")
 @router.message(Command(commands="follow"))
