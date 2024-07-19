@@ -17,21 +17,6 @@ keyboard = ReplyKeyboardMarkup(
     )
 
 
-about_us_vk_clip_button = InlineKeyboardButton(
-    text="Клип VK (20 сек.)",
-    url="https://vk.ru/clip-78784229_456239033"
-)
-
-neuroscience_promo_button = InlineKeyboardButton(
-    text="Информационный ролик (5 мин.)",
-    url="https://vk.com/video-78784229_456239040"
-)
-
-orthodontist_vk_clip_button = InlineKeyboardButton(
-    text="Клип VK (52 сек.)",
-    url="https://vk.com/clip-78784229_456239039"
-)
-
 psychiatrist_vk_clip_button = InlineKeyboardButton(
     text="Тизер интервью (60 сек.)",
     url="https://vk.com/clip-78784229_456239042"
@@ -44,27 +29,12 @@ psychiatrist_full_video_button = InlineKeyboardButton(
 
 telegram_channel_button = InlineKeyboardButton(
     text="Канал в Telegram",
-    url="https://t.me/xxxxxx_xxxxxx"
-)
-
-top_3_button = InlineKeyboardButton(
-    text="Ролик для YouTube-канала (107 сек.)",
-    url="https://youtu.be/my4feD2Cqgg"
-)
-
-top_10_button = InlineKeyboardButton(
-    text="Ролик для YouTube-канала (12 мин.)",
-    url="https://youtu.be/tUWfljgFJD8"
+    url="https://t.me/mshnktn"
 )
 
 vk_public_button = InlineKeyboardButton(
     text="Паблик в VK",
-    url="https://vk.com/xxxxxxxxxx"
-)
-
-website_button = InlineKeyboardButton(
-    text="Официальный сайт",
-    url="https://xxxxxxxxx.ru"
+    url="https://vk.com/mshnktn"
 )
 
 
@@ -79,10 +49,5 @@ watch_keyboard = InlineKeyboardMarkup(
     inline_keyboard=[
         [psychiatrist_vk_clip_button],
         [psychiatrist_full_video_button],
-        [orthodontist_vk_clip_button],
-        [about_us_vk_clip_button],
-        [neuroscience_promo_button],
-        [top_3_button],
-        [top_10_button]
     ]
 )
